@@ -1,0 +1,94 @@
+.authorization {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: center / cover url('../../images/app-bg.jpg') no-repeat;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.authorization::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+}
+
+.authorization__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  max-width: 410px;
+  width: 100%;
+  min-height: 338px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 53px 32px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.authorization__title {
+  margin: 0;
+  color: #424242;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.authorization__form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 16px 0 0;
+}
+
+.authorization__label {
+  color: #424242;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.authorization__input {
+  width: 100%;
+  border: 1px solid #C9CACC;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 7px 0 25px;
+}
+
+.authorization__btn {
+  cursor: pointer;
+  align-self: flex-end;
+  width: 116px;
+  height: 34px;
+  color: #fff;
+  border: none;
+  background: linear-gradient(104.34deg, #3C4CAD -15.34%, #00C3FF 145.95%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.authorization__btn:hover {
+  box-shadow: 0px 0px 4px #99A0A3;
+}
+
+.authorization__btn:focus {
+  box-shadow: 0px 0px 4px #99A0A3;
+}
+
+.authorization__btn:active {
+  border: 1.5px solid rgba(29, 138, 216, 0.3);
+  border-radius: 4px;
+}

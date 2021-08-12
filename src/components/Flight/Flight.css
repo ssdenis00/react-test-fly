@@ -1,0 +1,100 @@
+.departure__flight {
+  border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0;
+  padding: 0 0 17px;
+}
+
+.departure__logo {
+  display: block;
+  width: 64px;
+  height: 64px;
+  object-position: center;
+  object-fit: cover;
+  margin: 0 24px 0 0;
+}
+
+.departure__flight-info {
+  display: flex;
+}
+
+.departure__flight-aeroports {
+  display: flex;
+  color: #424242;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.departure__flight-from {
+  margin: 0;
+}
+
+.departure__flight-from::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  margin: 0 12px;
+  background: center / cover url('../../images/arrow.svg') no-repeat;
+}
+
+.departure__flight-in {
+  margin: 0;
+}
+
+.departure__flight-date {
+  color: #878787;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 2px 0 0;
+}
+
+.departure__flight-company {
+  color: #878787;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 2px 0 0;
+}
+
+.departure__price-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.departure__like {
+  cursor: pointer;
+  display: block;
+  width: 21px;
+  height: 18px;
+  border: none;
+  background-color: transparent;
+  background: center / contain url('../../images/like.svg') no-repeat;
+  transition: transform 0.3s ease-in-out;
+}
+
+.departure__like_active {
+  background: center / contain url('../../images/is-liked.svg') no-repeat;
+}
+
+.departure__like:hover {
+  transform: scale(1.3, 1.3);
+}
+
+.departure__cost {
+  margin: 0;
+  font-size: 17px;
+  line-height: 22px;
+  color: #424242;
+}
+
+.departure__price-title {
+  color: #878787;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 22px;
+  margin: 0 8px 0 0;
+}
