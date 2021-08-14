@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.64e00efa.chunk.css",
+    "main.js": "/static/js/main.93c40738.chunk.js",
+    "main.js.map": "/static/js/main.93c40738.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9c03a2b4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9c03a2b4.js.map",
+    "static/js/2.8b43cc4d.chunk.js": "/static/js/2.8b43cc4d.chunk.js",
+    "static/js/2.8b43cc4d.chunk.js.map": "/static/js/2.8b43cc4d.chunk.js.map",
+    "static/js/3.f061f03b.chunk.js": "/static/js/3.f061f03b.chunk.js",
+    "static/js/3.f061f03b.chunk.js.map": "/static/js/3.f061f03b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.64e00efa.chunk.css.map": "/static/css/main.64e00efa.chunk.css.map",
+    "static/js/2.8b43cc4d.chunk.js.LICENSE.txt": "/static/js/2.8b43cc4d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/SFProDisplay-Semibold.3926eb65.woff2",
+    "static/media/Authorization.css": "/static/media/app-bg.a8824740.jpg",
+    "static/media/LoggedIn.css": "/static/media/log-out.6e45871d.svg",
+    "static/media/Flight.css": "/static/media/like.27d71800.svg",
+    "static/media/logo-aero.dd978435.svg": "/static/media/logo-aero.dd978435.svg",
+    "static/media/photo1.e911344d.png": "/static/media/photo1.e911344d.png",
+    "static/media/photo2.c313eba1.png": "/static/media/photo2.c313eba1.png",
+    "static/media/photo3.ec11c3ee.png": "/static/media/photo3.ec11c3ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c03a2b4.js",
+    "static/js/2.8b43cc4d.chunk.js",
+    "static/css/main.64e00efa.chunk.css",
+    "static/js/main.93c40738.chunk.js"
+  ]
+}
