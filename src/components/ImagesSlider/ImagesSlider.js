@@ -1,12 +1,21 @@
 import './ImagesSlider.css';
+import { connect } from 'react-redux';
 import Image from '../Image/Image';
 
-function ImagesSlider() {
+function ImagesSlider({ images }) {
   return (
-    <ul className="departure__images">
-      <Image />
-    </ul>
+    <div className="container-shadow">
+      <ul className="departure__images">
+        {images.map((image, i) => {
+          return (<Image link={image} key={i} />)
+        })}
+      </ul>
+    </div>
   )
 }
 
-export default ImagesSlider;
+const mapStateToProps = state => {
+  return { images: state.images.images };
+}
+
+export default connect(mapStateToProps, null)(ImagesSlider);
