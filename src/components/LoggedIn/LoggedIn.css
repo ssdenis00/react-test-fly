@@ -23,6 +23,7 @@
   width: 100%;
   padding: 55px 40px 60px;
   margin: 15px 0 0;
+  box-sizing: border-box;
 }
 
 .departures__block {
@@ -32,6 +33,7 @@
 
 .departure__direction-block {
   display: flex;
+  flex-wrap: wrap;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -77,4 +79,26 @@
   cursor: pointer;
   margin-left: -1px;
   background: center / 20px 20px url('../../images/calendar-logo.svg') no-repeat;
+}
+
+@media (max-width: 768px) {
+  .departure__direction {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .departure__calendar-data {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .departure__title::after {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .departures {
+    padding: 25px 10px 30px;
+  }
 }

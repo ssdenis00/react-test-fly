@@ -17,6 +17,7 @@
 
 .departure__flight-info {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .departure__flight-aeroports {
@@ -99,3 +100,11 @@
   margin: 0 8px 0 0;
 }
 
+@media (max-width: 420px) {
+  .departure__cost {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
