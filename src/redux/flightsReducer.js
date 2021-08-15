@@ -18,7 +18,7 @@ const initialState = {
       date: '28 June, 2020 - 14:50',
       company: 'Aeroflot',
       price: '23 924 ₽',
-      isLiked: true,
+      isLiked: false,
     },
     {
       id: '3',
