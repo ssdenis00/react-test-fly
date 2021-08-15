@@ -10,6 +10,7 @@ function* sagaWorker() {
   yield put({ type: FETCH_FLIGHTS, payload })
 }
 
+//метод для загрузки с данных с сервера
 async function fetchFlights() {
   const res = await fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/autosuggest/v1.0/RU/RUB/en-RU/?query=Moscow", {
     "method": "GET",
